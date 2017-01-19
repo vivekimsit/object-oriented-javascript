@@ -91,7 +91,7 @@ var move = function() {
   this.loc++;
 };
 
-// But here are writing `move` at many places.
+// But here we are writing `move` at many places.
 
 var Car = function(loc) {
   var obj = {loc: loc};
@@ -210,7 +210,7 @@ var amy = Van(1);
 amy.move();
 var ben = Van(9);
 ben.move();
-var cal = Cal(2);
+var cal = Car(2);
 cal.move();
 cal.call();
 
